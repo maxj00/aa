@@ -1,0 +1,40 @@
+.licategory{
+	width: 100%;
+	display: flex;
+	margin-top: 0.241546rem;
+	dl{
+		display: flex;
+		width: 100%;
+		flex-flow: column;
+		padding: 0 0.31401rem;
+		dt{
+			line-height: 0.797101rem;
+			color: #bbbbbb;
+		}
+		dd{
+			display: flex;
+			flex-flow: row wrap;
+			a{
+			    width: 33.33%;
+			    color: #6b6c6e;
+			    min-height: 2.342995rem;
+			    padding-top:0.31401rem ;
+			    text-align: center;
+			    background-color: #f8f8f8;
+			    margin: 0 0 0.152979rem 0;
+			    float: left;
+			    box-sizing: content-box;
+			    img{
+			    	width: 1.545894rem;
+			    	height: 1.545894rem;
+			    	float: left;
+			    	margin-left: 0.402576rem;
+			    }
+			    p{
+			    	float: left;
+			    	width: 100%;
+			    }
+			}
+		}
+	}
+}

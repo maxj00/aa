@@ -1,0 +1,49 @@
+#locate{
+    height:17.786667rem;
+    display:flex;
+    flex-direction:column;
+    padding: 0.533333rem;
+    .header{
+        height: 0.533333rem;
+        font-size: 0.426667rem;
+        text-align:center;
+    }
+    input{
+            margin-top: 0.65rem;
+            height:0.906667rem;
+            padding-left:0.267rem;
+            border-radius:0.2rem;
+            font-size: 0.426667rem;
+            border:0.026667rem solid #ccc;
+        }
+    p{
+        margin-top: 0.65rem;
+        height:0.906667rem;
+        display:flex;
+        font-size: 0.426667rem;
+        select{
+
+            border-radius:0.2rem;
+            flex:1;
+            font-size: 0.426667rem;
+            option{
+                width:4.025765rem;    
+                font-size: 0.1rem;
+            }
+        }
+    }
+    button{
+            margin-top: 0.65rem;
+            height:0.906667rem;
+            padding-left:0.267rem;
+            border-radius:0.2rem;
+            font-size: 0.426667rem;
+            border:0.026667rem solid #ccc;
+            background: #d9534f;
+            text-align:center;
+            color:#fff;
+    }
+
+}
+
+

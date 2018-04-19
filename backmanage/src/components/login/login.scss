@@ -1,0 +1,34 @@
+.login{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 100%;
+    .login-box{
+        line-height: 20px;
+        text-align: center;
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        height: 340px;
+        width: 320px;
+        background-color: #fff;
+        padding: 36px;
+        .form-group{
+            position:relative;
+            label{
+                position:absolute;
+                left: 10px;top: 10px;
+            }
+            input{
+                padding-left: 30px;
+            }
+            .help-block{
+                color:red;
+            }
+        }
+        .btn{
+            width:100%;
+            color:#fff;
+            background-color: black;
+        }
+    }
+}

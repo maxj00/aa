@@ -1,0 +1,134 @@
+.home{
+
+    height: 100%;
+    width: 100%;
+    background:#f3f3f3;
+    display:flex;
+    a{
+        color:#fff;
+    }
+    .mj_manage{
+        height: 100%;
+        background:#001529;
+        width: 200px;
+        float: left;
+    }
+    .mj_r{
+        width: 100%;
+    }
+    .mj_box{
+        width: 100%;
+        height: 100%;
+            p{
+                margin-left: 10px;
+                line-height: 50px;
+                a{
+                color:#666;
+                }
+            }
+        }
+        .mj_userT{
+            margin: 0 10px;
+            height: 50px;
+            background:#fff;
+            line-height: 50px;
+            text-align:center;
+            button{
+                width: 200px;
+                margin-left: 5px;
+            }
+        }
+        .mj_user{
+            margin: 0 10px;
+            background:#fff;
+            height: 550px;
+            overflow-x:hidden;
+            table{
+                margin: 10px;
+                overflow: hidden;
+                button{
+                    width: 80px;
+                    background:red;
+                    color:#fff;
+                }
+                .updata{
+                    background:blue;
+                }
+            }
+        }
+        .mj_modal{
+           .useradd{
+                border: 1px solid #ddd;
+                position:absolute;
+                left: 35%;top: 30%;
+                background:#fff;
+                padding: 40px;
+                width: 500px;
+                height: 400px;
+                button{
+                    background-color: black;
+                    color:#fff;
+                }
+           }
+    }
+     .mj_seachList{
+        position:absolute;
+        left: 15%;top: 14%;
+        width: 1200px;
+            p{
+                margin-left: 10px;
+                line-height: 50px;
+                a{
+                color:#666;
+                }
+            }
+        }
+        .mj_seachT{
+            margin: 0 10px;
+            height: 50px;
+            background:#ddd;
+            line-height: 50px;
+            text-align:center;
+            .g{
+                position:absolute;
+                left: 82%;top: 0px;
+            }
+            .s{
+                width: 500px;
+            }
+            button{
+                width: 200px;
+                margin-left: 5px;
+            }
+        }
+        .mj_seachbox{
+        z-index:1;
+            margin: 0 10px;
+            border:1px solid #ddd;
+            background:#ddd;
+            height: 550px;
+            overflow-x:hidden;
+            table{
+                margin: 10px;
+                overflow: hidden;
+                button{
+                    position:absolute;
+                    left: 50%;
+                    width: 80px;
+                    background:red;
+                    color:#fff;
+                }
+
+            }
+        }
+        .mj_search{
+            width: 400px;
+            input{
+                position:absolute;
+                left: 10px;
+                width: 343px;
+            }
+        }
+        
+}
+

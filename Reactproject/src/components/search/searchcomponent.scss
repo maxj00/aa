@@ -1,0 +1,74 @@
+.li_goodlist_header{
+		width: 100%;
+		height: 1.256039rem;
+		background-color: #b60005;
+		display: flex;
+		flex-direction: column;
+		.li_header_content{
+			font-size: 0.338164rem;
+			display: flex;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+			.li_goodlist_logo{
+				width: 1.642512rem;
+				height: 0.700483rem;
+				margin-right:0.080515rem;
+				img{
+					width: 100%;
+					height: 0.692432rem;
+				}
+			}
+			.li_goodlist_search{
+				width:7.584541rem;
+				height: 0.748792rem;
+				background-color: #fff;
+				border-radius: 0.120773rem;
+				align-items: center;
+				display: flex;
+				margin-left: 0.080515rem;
+				div{
+					flex:2;
+					height: 100%;
+					display: flex;
+					span:first-of-type{
+						line-height:0.676329rem;
+						padding:0 0.120773rem;
+						color: rgb(128, 128, 128);
+					}
+					span:nth-of-type(2){
+						border-top: 0.120773rem solid #000;
+					    border-left: 0.096618rem dashed transparent;
+					    border-right:0.096618rem dashed transparent;
+					    font-size: 0;
+					    width: 0;
+					    height: 0;
+					    float: left;
+					    margin-top: 0.31401rem;
+					}
+					span:last-of-type{
+						border-right: 0.024155rem solid #000;
+					    margin-left: 0.169082rem;
+					    float: left;
+					    width: 0px;
+					    margin-top: 0.144928rem;
+					    height: 0.483092rem;
+					}
+				}
+				input{
+					flex:8;
+					border: none;
+					outline: none;
+					height:0.611916rem;
+					font-size: 0.338164rem;
+					color: #808080;
+					padding: 0.072464rem 0.120773rem 0.024155rem 0.120773rem;
+				}
+				i{
+					flex:1;
+					color: red;
+					font-size:0.483092rem;
+				}
+			}
+		}
+	}

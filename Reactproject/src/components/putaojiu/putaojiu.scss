@@ -1,0 +1,23 @@
+.j-swipe{width: 100%;
+    img{width:100%}
+}
+.members_goodspic{
+    flex:1;
+    overflow-x:hidden;
+    ul{
+        display:flex;
+        flex-wrap:wrap;
+        li{
+            justify-content:space-between;
+            width:48%;
+            margin:1%;
+            position: relative;
+            background: #fff;
+            margin-bottom:0.88rem;
+            img{width:100%;}
+            span{display: flex;font-size: .311111rem;color:red}
+            p{display: flex;font-size: .311111rem /* 14/45 */;}
+            i{font-size:0.66rem;position: absolute;bottom:0rem;right:0.44rem;color:red;}
+        }   
+    }
+}

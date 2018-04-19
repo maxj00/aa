@@ -1,0 +1,119 @@
+.li_shade{
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	.li_modul{
+		position: fixed;
+		z-index: 100;
+		left: 0;
+		top:0;
+		bottom: 0;
+		right: 0;
+		background: #000;
+		opacity: 0.5;
+	}
+	.li_modul_container{
+		position: fixed;
+		z-index: 101;
+		left: 0;
+		top:20%;
+		bottom: 0;
+		right: 0;
+		background: #fff;
+		display: flex;
+		flex-flow: column;
+		.att-popup-header{
+			position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 2.415459rem;
+		    padding: 0.2657rem 3.4375%;
+		    border-bottom: 0.016103rem solid rgba(0, 0, 0, .09);
+		    .li_thumb{
+		    	position: relative;
+		    	float: left;
+			    top: -0.748792rem;
+			    padding: 0.048309rem;
+			    width: 2.415459rem;
+			    height: 2.415459rem;
+			    margin-right:0.241546rem;
+			    background-color: rgb(255, 255, 255);
+			    border: 0.016103rem solid rgb(221, 221, 221);
+			    border-radius: 0.048309rem;
+			    img{
+			    	width: 100%;
+			    	height: 100%;
+			    }
+		    }
+		    .li_info{
+		    	line-height: 0.483092rem;
+   			 	color: rgb(47, 48, 49);
+   			 	.li_price_con{
+   			 		font-size: 0.386473rem;
+    				color: rgb(255, 79, 56);
+   			 	}
+		    }
+		    span{
+		    	display: inline-block;
+		    	width: 0.57971rem;
+		    	height: 0.57971rem;
+		    	border-radius: 100%;
+		    	color: #fff;
+		    	background: rgba(73, 78, 82, .8);
+		    	text-align: center;
+		    	line-height: 0.57971rem;
+		    	position: absolute;
+			    top: 0.2657rem;
+			    right: 0.2657rem;
+		    }
+		}
+		.att-popup-body{
+			flex:1;
+			margin-top:2.399356rem;
+			padding: 33px 3.4375% 0;
+			.li_buy_num{
+				margin-top: 0.2657rem;
+				overflow: hidden;
+				label{
+					margin-right: 60px;
+					float: left;
+					height: 0.724638rem;
+					line-height: 0.724638rem;
+				}
+				.li_wrap_num{
+					float: left;
+					display: inline-block;
+					line-height: 0.756844rem;
+					span{
+					display: inline-block;
+					width: 0.644122rem;
+					height: 0.644122rem;
+					font-size: 0.483092rem;
+					text-align: center;
+					line-height: 0.555556rem;
+					border: 0.024155rem dashed rgb(211, 211, 211);
+					float: left;
+					}
+					#li_input_xs{
+						float: left;
+						width: 0.966184rem;
+						height: 0.636071rem;
+						padding:0.048309rem 0.120773rem;
+						border:0.024155rem dashed rgb(211, 211, 211);
+						font-size: 0.402576rem;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.att-popup-footer{
+			height: 1.111111rem;
+			background-color: rgb(255, 67, 66);
+			text-align: center;
+			line-height: 1.111111rem;
+			color:#fff;
+		}
+	}
+}

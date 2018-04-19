@@ -1,0 +1,28 @@
+.mj_header{
+    padding: 20px;
+    height: 65px;
+    width: 100%;
+    background:blue;
+    color:#fff;
+    .mj_search{
+        width: 300px;
+        .form-control{
+            width: 300px;
+        }
+        button{
+            background:black;
+            color:#fff;
+        }
+    }
+    b{
+        font-size:18px;
+        color:red;
+    }
+}
+.mj_homeindex{
+    img{
+        width: 100%;
+        height: 704px;
+    }
+}
+    

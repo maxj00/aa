@@ -1,0 +1,17 @@
+.home{
+    display: flex;flex-direction: column;height:100%;background-color: #F9F9F9;
+    .home_body{
+        flex:1;overflow-y:auto ;
+        .ant-carousel{height:4.66rem;width:100%;
+        }
+        .nav_w{height:2.97rem;margin-top:0.22rem;
+           ul{display: flex;
+            li{width:25%;height:2.97rem;background-color: #fff;
+                img{width:100%;}
+                 a{text-align: center;font-size: 0.35rem;display: block; color:#000;}
+            }
+           }
+        }
+        .news_w{height: 0.66rem;margin-top:0.22rem;padding:0.11rem;}
+    }
+}

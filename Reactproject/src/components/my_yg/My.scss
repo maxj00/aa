@@ -1,0 +1,314 @@
+*{margin:0;padding:0;}
+.my{
+    
+    .my_top{
+        border-bottom:1px solid #ddd;
+        color:#333;
+        background-color: #f8f8f8;
+        height:79px;
+        line-height: 45px;
+        overflow:hidden;
+        .goback{
+            width:36px;
+            display:inline-block;
+            float:left;
+            text-align: center;
+            >img{
+                width:12px;
+                vertical-align: middle;
+            }
+            
+        }
+        .mainnav{
+            width:36px;
+            display:inline-block;
+            float:right;
+            text-align: center;
+            img{
+                width:20px;
+                vertical-align: middle;
+            }
+        }
+        h2{
+            float:left;
+            display:inline-block;
+            font-weight: 400;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: center;
+            width: 80%;
+            text-overflow: ellipsis;
+            margin: 11px auto;
+            font-size:44px;
+            padding-left:89px;
+        }
+    }
+    .my_menu{
+        .menu_item{
+            width:25%;
+            height:123px;
+            display:inline-block;
+            background-color: #666;
+            text-align:center;
+            
+        }
+        .menu_active{
+            background-color: #555;
+        }
+        a{  
+            display: block;
+            font-size: 37px;
+            color: #fff;
+            padding-top: 69px;
+            
+        }
+        .item1{
+            
+            background:url(//i1.ygimg.cn/m/images/homec.bdf4c220.png)no-repeat;
+            background-position: center 9px;
+            background-size: 20%;
+        }
+        .item2{
+            
+            background:url(//i1.ygimg.cn/pics/mobile/appointment/6.18Game/class.png) center 9px no-repeat;
+            background-position: center 9px;
+            background-size: 20%;
+        }
+        .item3{
+            
+            background:url(//i1.ygimg.cn/m/images/ico-shopcartc.3ee79b16.png) no-repeat;
+            background-position: center 9px;
+            background-size: 20%;
+        }
+        .item4{
+            
+            background:url(//i1.ygimg.cn/m/images/ico-personc.18f51959.png) no-repeat;
+            background-position: center 9px;
+            background-size: 20%;
+        }
+    }    
+        
+    
+    .my_guanli{
+        background:url(//i1.ygimg.cn/m/images/myYG/top-backgroundc.80614830.jpg) center center no-repeat;
+        padding:12px;
+        height:170px;
+        position:relative;
+        box-sizing:border-box;
+        color:white;
+        overflow:hidden;
+        background-size:cover;
+        .manage{
+            width: 60px;
+            height: 56px;
+            background: url(//i1.ygimg.cn/m/images/myYG/user.a3596b0b.png) left center no-repeat;
+            background-size: 50px auto;
+            position: absolute;
+            left: 12px;
+
+        }
+        .userphone{
+            position:absolute;
+            left:80px;
+        }
+        .memberclass{
+            padding: 0 6px;
+            margin-top: 1px;
+            background-color: #bd2302;
+            display: inline-block;
+            color: #fff;
+            font-size: 14px;
+            line-height: 24px;
+            border-radius:12px;
+            position:absolute;
+            left:80px;
+            top:45px;
+        }
+        .newsbox{
+            position: absolute;
+            top: 14px;
+            right: 12px;
+            width: 22px;
+            height: 22px;
+            background: url(//i1.ygimg.cn/pics/mobile/touch/images/info/information-small.png) center center no-repeat;
+            background-size: 22px auto; 
+        }
+        .zhanghuguanli{
+            position: absolute;
+            color: #fff;
+            bottom: 8px;
+            right: 12px;
+            font-size: 53px;
+            line-height: 96px;
+        }
+    }
+    .my_order{
+        .userorderList{
+            display: block;
+            padding: 8px 18px;
+            font-size: 60px;
+            position: relative;
+            color: #333;
+            border-bottom: 1px solid #ddd;  
+            vertical-align:center;
+            >p{
+                display:inline-block;
+            }
+            span{
+                a{
+                    position: absolute;
+                    top: 12px;
+                    right: 22px;
+                    font-size: 52px;
+                    color: #a0a0a0;
+                }
+            }
+        }
+        .ordermanage{
+            padding:15px 0 10px;
+            border-bottom:8px solid #f8f8f8;
+
+            >a{
+                width:33.3%;
+                display:inline-block;
+    
+        
+                text-align: center;
+                height:50px;
+                >img{
+                    width:95px;
+                }
+                >p{
+                    padding-top: 7px;
+                    font-size: 59px;
+                    color: #333;
+                }
+                
+            }
+            .userorderList{
+
+            }
+            .checkDeliver{
+
+            }
+            .unevaluate{
+
+            }
+        }
+
+    }
+    .my_purse{
+        padding:15px 0 10px;
+        border-bottom:8px solid #f8f8f8;
+        .userpurse{
+            display:block;
+            border-bottom:1px solid #d8d8d8;
+            >p{
+                
+                font-size:52px;;
+                color:#333;
+                padding:0 0 8px 20px;
+            }
+        }
+        .pursemanage{
+            padding:9px 0;
+           >a{
+                width:25%;
+                display:inline-block;
+
+                text-align: center;
+                height:50px;
+                >img{
+                    width:26px;
+                }
+                >p{
+                    padding-top: 7px;
+                    font-size: 59px;
+                    color: #333;
+                }
+                .jiacu{
+                    font-weight:bold;
+                    font-size:72px;
+                }
+            } 
+        }
+        
+    }
+    
+    .userList{
+        padding:15px 0 10px;
+        border-bottom:1px solid #ddd;
+        >a{
+            width:25%;
+            display:inline-block;
+            text-align: center;
+            height:50px;
+            >img{
+                width:119px;
+            }
+            >p{
+                padding-top: 7px;
+                font-size: 55px;
+                color: #333;
+            }
+        }
+    }
+    .bt{
+        border-bottom:8px solid #f8f8f8;
+    }
+
+    .my_footer{
+        padding: 8px 0 12px;
+        background: #f8f8f8;
+        text-align: center;
+        clear:both;
+        height:60px;
+        position:relative;
+        .loginbar{
+            position:relative;
+
+            >span{
+                position:absolute;
+                color:#a0a0a0;
+                left:40px;
+                top:68px;
+
+                a{font-size:66px;
+                    color:#666;
+                    margin-left:8px;
+                    text-decoration:none;
+                    margin-right: 8px
+                }
+                em{
+                    font-style:normal;
+                }
+            }
+            p{
+                position:absolute;
+                color:#a0a0a0;
+                right:30px;
+                top:57px;
+                a{
+                    font-size:42px;
+                    color:#666;
+                    margin-left:8px;
+                }
+            }
+        }
+        .version{
+            position:absolute;
+            bottom:0px;
+            left:16%;
+            >p{
+                font-size:28px;
+                color:#666;
+                margin-left:8px;
+                margin-bottom:5px;
+            }
+        }
+    }
+    .p1{
+        font-size:10px;
+    }
+    
+}

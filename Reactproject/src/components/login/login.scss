@@ -1,0 +1,100 @@
+#bigbox{
+   height:100%;
+   padding-top:0.10467rem;
+   font-size: 0.338164rem;
+    .header{
+        height:1.143317rem;
+        width:9.877617rem;
+        margin: 0.772947rem 0;
+        padding-left:0.563607rem;
+        img{
+            width:3.723027rem;
+        }
+    }.header_r{
+        width: 8.599034rem;
+        height: 2.294686rem;
+        margin: 0 auto;
+        padding: 0 0.31401rem;
+        box-shadow: 0px 0px 0.161031rem rgba(137, 148, 155, .2), 0px 0px 0.161031rem rgba(234, 234, 234, .6);
+        p{
+            border-bottom: 1px solid #cecece;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0.169082rem;
+            input{
+                flex: 1;
+                height:0.966184rem ;
+                padding: 0.193237rem 0;
+                font-size: 0.338164rem;
+                color: #6b6c6e;
+                border: 0;
+                border-radius: 0;
+                box-shadow: none;
+                position: relative;
+                margin-left: 0.322061rem;
+            }
+        }
+
+    }
+    .denglu{
+            margin: 0 auto;
+            width: 8.599034rem;
+            height: 1.095008rem;
+            margin-top:0.805153rem;
+            font-size:0.402576rem;
+            color: #fff;
+            background-color: #d50014;
+            text-align: center;
+            line-height: 1.095008rem;
+        }
+    .header_b{
+        height:0.660225rem;
+        width:10.861514rem;
+        margin-top: 0.644122rem;
+        position:relative;
+        i{
+            position:absolute;
+            left: 0.185185rem;
+            img{
+                height:0.402576rem;
+                width:-0.516908rem;
+            }
+            
+        }
+       span{
+        position:absolute;
+        top:6px;
+        left:69px;
+       }
+        .s_1{
+        position:absolute;
+        top:6px;
+        left:1065px;
+        }
+    }
+    .foot-b{
+        height:2.756844rem;
+        width:9.930757rem;
+        text-align:center;
+        position:relative;
+        i{
+           position:absolute;
+           left:3.985507rem;
+           top:1.215781rem;
+           img{
+            height:0.925926rem;
+            width:1.803543rem;
+           }
+        }
+    }
+    .foot-bb{
+        text-align:center;
+        span{
+            font-size:0.241546rem;
+            a{
+                font-size:0.241546rem;
+            }
+        }
+    }
+}   

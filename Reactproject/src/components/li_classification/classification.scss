@@ -1,0 +1,98 @@
+.li_classification{
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+	height: 100%;
+	font-size: 0.338164rem;
+	.li_brand{
+		flex: 1;
+		display: flex;
+		.li_brand_box{
+			background-color: #f3f3f3;
+			.li_brand_name{
+				width: 2.487923rem;
+				display: flex;
+				flex-flow: column;
+				li{
+					width: 99%;
+				    text-align: center;
+				    height: 1.175523rem;
+				    line-height: 1.175523rem;
+				    background-color: #f8f8f8;
+				    border-top: 0.024155rem solid #eaeaea;
+				    border-right: 0.024155rem solid #eaeaea;
+				    color: #494e52;
+				}
+				.li_classification_active{
+				color: #fb1437;
+			    border-left: 0.048309rem solid #e00000;
+			    border-right: none;
+			    background-color: #fff;
+				}
+			}
+		}
+		.li_brand_logo{
+			flex: 1;
+			display: flex;
+		}
+		.wx_aside{
+			position: fixed;
+		    z-index: 998;
+		    right: 0.434783rem;
+		    bottom: 1.449275rem;
+		    width: 1.062802rem;
+		    .btn_more{
+		    	width: 1.062802rem;
+			    height: 1.062802rem;
+			    background: url("../../classifition_photo/more.png") no-repeat;
+			    background-size: 1.062802rem;
+			    display: block;
+		    }
+		    .wx_aside_item{
+		    	width: 2.753623rem;
+		    	height: 2.125604rem;
+		    	border: 1px solid #ddd;
+		    	position: absolute;
+		    	top: -2.415459rem;
+		    	right: 0;
+		    	background: #000;
+		    	opacity: 0.6;
+		    	color: #eee;
+		    	&:after{
+		    		content: '';
+				    display: inline-block;
+				   	border: 0.120773rem solid transparent;
+				   	border-top-color:#000;
+				   	opacity: 0.6;
+				    position: absolute;
+				    bottom: -0.241546rem;
+				    right: 0.362319rem;
+		    	}
+		    	a{
+		    		line-height: 1.062802rem;
+				    height: 1.062802rem;
+				    overflow: hidden;
+				    display: block;
+				    margin: 0 0.362319rem;
+				    border-bottom: 0.024155rem solid #eee;
+				    background: #000;
+				    color: #666;
+				    &:before{
+						float: left;
+					    content: '\20';
+					    width: 0.531401rem;
+					    height: 0.57971rem;
+					    background: url("../../classifition_photo/footer-icon01.png") no-repeat;
+					    margin: 0.289855rem 0.120773rem 0.289855rem 0;
+					    background-size: 0.603865rem;
+				    }
+		    	}
+		    	.f-cart{
+		    		&:before{
+		    			background-position: 0 -5.434783rem;
+		    		}
+		    	}
+		    }
+		}
+	}
+}

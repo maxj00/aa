@@ -1,0 +1,186 @@
+#carlist{
+    height:17.786667rem;
+    display:flex;
+    flex-direction:column;
+    .cover{
+        .fa{
+            display:block;
+            font-size: 1.333333rem;
+             text-align:center;
+             padding-top: 0.37rem;
+        }
+        .tip{
+            display:block;
+            font-size: 0.46rem;
+            text-align:center;
+            line-height: 1.6rem;
+        }
+
+        display:none;
+        position:fixed;
+        top:6.4rem;
+        right:2.453333rem;
+        bottom:7.3rem;
+        left:2.453333rem;
+        background: rgba(0,0,0,.6);
+        color:#fff;
+      
+
+    }
+    .header{
+        background:#f4f6f8;
+        height: 1.093333rem;
+        border-bottom:0.026667rem solid #ccc;
+        display:flex;
+        a{
+            flex:1;
+            font-size: 0.373333rem;
+            text-align:right;
+            padding:0.24rem;
+            color:blue;
+        }
+
+    }
+    .body{
+        flex:1;
+        overflow-y:auto;
+        display:flex;
+        flex-direction:column;
+        padding-left:0.266667rem;
+        .carshop{
+            padding:0.266667rem 0;
+            height:1.7rem;
+            font-size: 0.373333rem;
+            border-bottom:0.026667rem solid #ccc;
+            line-height: 1.5rem;
+            a{
+                color:#ccc;
+                margin-left: 0.8rem;
+            }
+        }
+        .cargoods{
+            height: 2.933333rem;
+            // display:flex;
+            padding:0.333333rem 0;
+            margin-top: 0.2rem;
+ 
+            i{
+                float:left;
+                 &.active{
+                    background: #dd2727;
+                }
+                align-self:center;
+                border:0.026667rem solid #ccc;
+                border-radius:50%;
+                height: 0.533333rem;
+                width:0.533333rem;
+                margin-top: 0.79rem;
+            }
+            img{
+                margin-left: 0.1rem;
+                margin-right: 0.266667rem;
+                height: 1.866667rem;
+                width:1.866667rem;
+                float:left;
+            }
+            p{
+                height: 0.986667rem;
+                font-size: 0.333333rem;
+                float:left;
+                width:6.8rem;
+                span{
+                    font-size: 0.32rem;
+                    float:right;
+                    margin-right: 0.266667rem;
+                    font-style:bold;
+                    color:#3f51b5;
+                }
+            }
+            .cal{
+                display:flex;
+                float:left;
+                font-size:0.533333rem;
+                width:6.8rem;
+                input{
+                    width: 1.333333rem;
+                    height: 0.746667rem;
+                    border:0.026667rem solid #ccc;
+                    text-align:center;
+                    font-size: 0.373333rem;
+                }
+                span{
+                    height: 0.746667rem;
+                    width: 0.88rem;
+                    text-align:center;
+                    line-height: 0.64rem;
+                    border: 0.026667rem dashed #ccc;
+                    cursor: pointer;
+                }
+                .del{
+                    font-size: 0.32rem ;
+                    margin-left: 2.7rem;
+                    border:0 none;
+                    padding-top:0.266667rem;
+                    color:#dd2727;
+                }
+
+            }
+        }
+    }
+    .footer{
+        border-top:0.026667rem solid #ccc;
+        // background: #ccc;
+        height:1.626667rem;
+        display:flex;
+        .sel{
+            padding-left:0.133333rem;
+            width: 1.813333rem;
+            display:flex;
+            span{
+                font-size: 0.373333rem;
+                align-self:center;
+                flex:1;
+                text-align:center;
+            }
+            i{
+                &.active{
+                    background: #dd2727;
+                }
+                align-self:center;
+                border:0.026667rem solid #ccc;
+                border-radius:50%;
+                height: 0.533333rem;
+                width:0.533333rem;
+            }
+        }
+        .calprice{
+            padding-left:0.133333rem;
+            flex:1;
+            background: #fff;
+            display:flex;
+            flex-direction:column;
+            span{
+                height: 0.533333rem;
+                font-size: 0.32rem;
+                color:#595a5b;
+                b{
+                    color:#dd2727;
+                    margin-left: 0.266667rem;
+                }
+            }
+        }
+        .buy{
+            width:2.666667rem;
+            background: #f92a20;
+            color:#fff;
+            font-size: 0.373333rem;
+            line-height: 1.626667rem;
+            text-align:center;
+            span{
+                margin-left: 0.093333rem;
+                font-size: 0.30rem;
+
+            }
+        }
+    }
+}

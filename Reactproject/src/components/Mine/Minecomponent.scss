@@ -1,0 +1,41 @@
+.li_mine{
+	width:100%;
+	height:100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	.fa-university{
+		position: fixed;
+		color: #fff;
+		font-size: 0.483092rem;
+		top:0.644122rem;
+		left: 0.644122rem;
+	}
+	.li_me{
+		width: 4.830918rem;
+		height: 3.220612rem;
+		text-align: center;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		.fa-user-circle{
+			font-size: 2.415459rem;
+			color:#fff;
+		}
+		span{
+			margin-top: 0.402576rem;
+			width: 100%;
+			display: inline-block;
+			font-size:0.386473rem;
+			color:#fff;
+			text-align: center;
+			em{
+				color: orange;
+				font-weight: bold;
+			}
+			b{
+				float:right;
+				margin-right:80px;
+			}
+		}
+	}
+}
